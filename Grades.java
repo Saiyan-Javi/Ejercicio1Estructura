@@ -1,36 +1,23 @@
 public abstract class Grades{
 
-    private int grade;
-<<<<<<< HEAD
+    private String grade;
     private boolean review;
     private String nombre;
 
     public Grades(String grade, boolean review, String nombre){
-=======
-    private String review;
-    private String name;
-
-    public Grades(String name, int grade, String review){
-        setName(name);
->>>>>>> bfdc468ed75fe02f0eda993ceae096ff0544f7e1
         setGrade(grade);
         setReview(review);
         setNombre(nombre);
     }
 
-    private void setName(String name) {
-        this.name = name;
+    public Grades(String grade2, int i, String nombre2) {
     }
 
-    public String getName(){
-        return name;
-    }
-
-    public int getGrade(){
+    public String getGrade(){
         return grade;
     }
 
-    public String getReview(){
+    public boolean getReview(){
         return review;
     }
 
@@ -38,11 +25,11 @@ public abstract class Grades{
         return nombre;
     }
 
-    private void setReview(String review) {
-        this.review = review;
+    private void setReview(boolean review2) {
+        this.review = review2;
     }
 
-    private void setGrade(int grade) {
+    private void setGrade(String grade) {
         this.grade = grade;
     }
 

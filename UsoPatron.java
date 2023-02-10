@@ -3,7 +3,9 @@
 //     Factory Patron
 //
 
+import java.util.ArrayList;
 import java.util.Scanner;
+import java.util.Arrays;
 
 public class UsoPatron {
     public static void main(String[] args) {
@@ -26,9 +28,11 @@ public class UsoPatron {
         System.out.println("Nombre: "+ namer.getFirst());
         System.out.println("Nota: " + namer.getLast());
 
-       public ArrayList<Integer> sort(ArrayList<Integer> numbers) {
+        ArrayList<Integer> arr = new ArrayList();
+
+    /*arr.sort(arr) {
         ArrayList<Integer> sortedNumbers = new ArrayList<>();
-        sortedNumbers.addAll(numbers);
+        sortedNumbers.addAll(numbers);*/
+
         }
     }
-}

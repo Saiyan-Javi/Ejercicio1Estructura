@@ -2,10 +2,20 @@ public abstract class Grades{
 
     private int grade;
     private String review;
+    private String name;
 
-    public Grades(int grade, String review){
+    public Grades(String name, int grade, String review){
+        setName(name);
         setGrade(grade);
         setReview(review);
+    }
+
+    private void setName(String name) {
+        this.name = name;
+    }
+
+    public String getName(){
+        return name;
     }
 
     public int getGrade(){

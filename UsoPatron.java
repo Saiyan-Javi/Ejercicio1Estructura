@@ -47,7 +47,8 @@ public class UsoPatron {
                     }
                 }
                 case 2:{
-
+                    System.out.println("Mostrando los resultados de los estudiantes...");
+                    
                 }
                 case 3:{
                     
